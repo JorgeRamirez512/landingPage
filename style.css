@@ -1,0 +1,166 @@
+html, body, main {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+/* scetion one */
+#section-one {
+    background-color: hsl(127, 20%, 51%);
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul, a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    gap: 16px;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+.container {
+    padding: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    max-width: 45%;
+    margin-bottom: 30px;
+}
+
+.intro > button {
+    width: 200px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#secion-one > img {
+    border: 2px solid grey;
+}
+
+/* Section two */
+#section-two {
+    background-color: hsl(134, 12%, 49%);
+}
+
+#section-two > h2 {
+    padding-top: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.car-container {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    gap: 30px;
+}
+
+.car-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
+.car-info > img{
+    align-self: center;
+    max-width: 200px;
+    max-height: 150px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+.text > p {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.text > h6 {
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+
+/* Section three */
+#section-three {
+    background-color: hsl(47, 42%, 89%);
+}
+
+.container-three {
+    padding: 80px;
+    font-size: 24px;
+}
+
+.container-three > p {
+    font-weight: 600;
+    margin-left: 850px;
+}
+
+.container-three > q {
+    font-style: italic;
+}
+
+
+/* Section four */
+#section-four {
+    background-color: white;
+}
+
+.call-to-action {
+    background-color: hsl(87, 25%, 64%);
+    width: 40%;
+    height: 75px;
+    margin: 45px auto 45px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.call-to-action > button {
+    border-radius: 5px;
+    padding: 8px 10px 8px 10px;
+}
+
+/* Section four */
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: hsl(127, 20%, 51%);
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    font-weight: 600;
+}
+
+
