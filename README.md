@@ -3,7 +3,7 @@
 This is a landing page project that I completed while learning to code with The Odin Project.
 
 ## About 
-This landing page will be about cars
+Landing page for a fake auto dealership
 
 ## Technologies Used
 - HTML 
